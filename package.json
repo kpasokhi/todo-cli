@@ -1,0 +1,29 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI app to manage todo list",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpasokhi/todo-cli.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Koorosh Pasokhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kpasokhi/todo-cli/issues"
+  },
+  "homepage": "https://github.com/kpasokhi/todo-cli#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.2"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
